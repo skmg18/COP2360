@@ -16,7 +16,6 @@ class Octopus
     }
 }
 
-// Inheriting from Octopus
 class GiantOctopus : Octopus
 {
     public double SizeInMeters;
@@ -26,7 +25,6 @@ class GiantOctopus : Octopus
         SizeInMeters = size;
     }
 
-    // Overriding the base method
     public override void SayHello()
     {
         Console.WriteLine($"I'm a GIANT octopus named {Name}, I'm {SizeInMeters} meters long and I have {Legs} legs!");
